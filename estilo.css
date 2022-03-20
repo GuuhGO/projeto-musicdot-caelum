@@ -1,29 +1,33 @@
 body{
-	width: 940px;
-	margin-right: auto;
+	width: 940px; /*Lárgura máxima de todo o conteúdo do corpo da página*/
+	
+	/*Os dois códigos abaixo centralizam o conteúdo*/
+	margin-right: auto; 
 	margin-left: auto;
-	font-family: sans-serif;
-	background-image: url(img/planos-background.png);
+
+	font-family: sans-serif; /*Define a fonte do corpo do código*/
+	
+	background-image: url(img/planos-background.png);/*Define a imagem de fundo do site*/
 }
 h1{
-	text-align: center;
-	color: #555;
-	background-color: #E1EDF2
-	padding: 10px;
+	text-align: center; /*Centraliza o título principal*/
+	color: #555; /*Define a cor do título usando código hexadecimal para o RGB*/
+	background-color: #E1EDF2 /*Define a cor de fundo do título principal*/
+	padding: 10px; /*Margem interna do título*/
 }
 h2{
-	text-align: center;
-	border-bottom: 4px solid black;
-	font-size: 24px;
+	text-align: center; /*Centraliza o título secundário*/
+	border-bottom: 4px solid black; /*Desena uma borda por baixo da sua página*/
+	font-size: 24px; /*Ajusta o tamanho da letra*/
 }
 figure{
-	background-color: whitesmoke;
-	text-align: center;
-	color: grey;
-	border: 1px solid lightgrey;
-	padding: 15px;
-	margin: 30px;
+	background-color: whitesmoke; /*Insere uma cor de fundo onde fica a figura*/
+	text-align: center; /*Alina o texto no centro*/
+	color: grey; /*Define cor verde*/
+	border: 1px solid lightgrey; /*Configura a borda ao redor da figura*/
+	padding: 15px; /*Margem interna da figura*/
+	margin: 30px; /*Margem externa da figura*/
 }
 figcaption{
-	margin-top: 10px;
+	margin-top: 10px /*Afasta 10 pixels da margem de cima da legenda.*/
 }
