@@ -1,0 +1,72 @@
+Anotações importantes para o estudo:
+- <!DOCTYPE html> deve estar em todos os arquivos.html para que o navegador saiba a versão da linguagem que está sendo utilizada;
+- A tag <title> dentro do <head> indica o nome da página para o navegador, que também define esse <title> como nome da aba dele;
+- Formato padrão de um código html:
+	<!DOCTYPE html>
+		<html>
+			<head>		
+			</head>
+			<body>
+			</body>
+		</html>
+- Tag img: <img src="/caminho/da/imagem" alt="Texto alternativo caso a imagem não possa ser exibida">
+- Tag figure: <figure></figure> Possibilita inserir imagem com legenda
+- Tag figcaption: <figcaption>Legenda</figcaption> insere uma legenda numa imagem dentro de uma tag figure.
+- Tag ul. Lista não ordenada:
+	<ul>
+		<li>Primeiro item da lista</li>
+		<li>Segundo item da lista </li>
+		<li>Terceiro item da lista</li>
+	</ul>
+Podem ser feitas listas detro uma lista.
+- Tag ol. Lista ordenada:
+	<ol>
+		<li>Primeiro item da lista</li>
+		<li>Segundo	item da lista</li>
+		<li>Terceiro item da lista</li>
+		<li>Quarto item da lista</li>
+		<li>Quinto item	da lista</li>
+	</ol>
+- Tag dl. Lista de definição, usada para listar algo e colocar uma definição abaixo dele:
+	<dl>
+		<dt>HTML</dt>
+		<dd>
+		    HTML é a linguagem de marcação de textos utilizadas para exibir textos como páginas da internet.
+		</dd>
+		<dt>Navegador</dt>
+		<dd>
+		    Navegador é o software que requisita um documneto HTML através do protocolo HTTP e exibe seu conteúdo em uma janela.
+		</dd>
+	</dl>
+- Tag a. <a></a> Atribui um link à algum objeto do conteúdo da página que, ao ser clicado, encaminha o usuário para o link indicado no parâmetro "href" dentro da tag <a>.
+	<p>Acesse aqui o meu <a href="https://github.com/GuuhGO" target="_blank">Github</a></p>
+
+O atributo 'href' indica o link de referência para a palavra que está dentro da tag como neste exemplo: "Github".
+O atributo 'target="_blank"' é um recurso que faz com que o link, ao ser clicado, seja aberto numa nova aba do navegador. Na ausência deste parâmetro, o navegador apenas redireciona a página para o link na mesma aba em que usuário está.
+
+
+    <p>Mais	informações	<a	href="#info">aqui</a>.</p>
+    <p>Conteúdo	da	página...</p> 
+
+    <h2	id="info">Mais	informações	sobre	o	assunto:</h2>
+    <p>Informações...</p>  
+
+No exemplo acima, o atributo 'href="#info"' determina uma referência para ser seguida caso a palavra "aqui" seja clicada. O atributo 'id="#info"' determina o destino que o atributo anterior (href) está indicando. Ao clicar na palavra "aqui" o navegador irá rolar a tela até o ponto referenciado no atributo 'id'.
+
+
+	
+
+- Propriedades CSS:
+	width: px; -> Define a largura máxima de determinado objeto ou conteúdo en pixels.
+	margin: px; -> Margem externa de um objeto ou conteúdo em pixels;
+	padding: px; -> Margem interna de um objeto ou conteúdo em pixels;
+	font-family: ; -> Define a família da fonte do texto;
+	background-image: url(); -> Define uma imagem de fundo para o espaço ou conteúdo;
+	text-align: ; -> Define o alinhamento do conteúdo de uma div;
+	color: ; -> Define a cor do texto;
+	background-color: ; -> Define a cor de fundo de um determinado espaço ou conteúdo;
+	border: ; -> Cria uma borda com as características que forem especificadas (possui sub-propriedades);
+	font-size: px; -> Define o tamanho dos caracteres de um determinado conteúdo;
+	list-style-type: ; -> Estiliza o formato padrão das listas ordenadas e não-ordenadas;
+	
+	
