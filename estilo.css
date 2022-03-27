@@ -1,3 +1,6 @@
+html{
+	scroll-behavior: smooth;
+}
 body{
 	width: 940px; /*Lárgura máxima de todo o conteúdo do corpo da página*/
 	
@@ -28,6 +31,9 @@ figure{
 	padding: 15px; /*Margem interna da figura*/
 	margin: 30px; /*Margem externa da figura*/
 }
+/*img{
+	filter: drop-shadow(0 0 6px #000);
+}*/
 figcaption{
 	margin-top: 10px /*Afasta 10 pixels da margem de cima da legenda.*/
 }
